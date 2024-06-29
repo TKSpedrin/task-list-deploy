@@ -1,0 +1,196 @@
+body {
+    background-image: url("./fotos/FUNDO\ DO\ ATV.png");   
+      background-size: cover;   
+      background-repeat:no-repeat;
+      background-attachment: fixed;
+    }
+
+h1{
+    font-family:'impact';
+    color:rgb(0, 0, 0);
+    font-size: 34px;
+    font-weight: lighter;     
+
+}
+
+h2{font-family:tahoma;
+    color:rgb(32, 85, 201);
+    font-size: 29apx;
+}    
+
+
+.info {
+background-color: rgba(0, 87, 129, 0.4);
+padding: 10px;
+margin-bottom: 50px;
+
+border-radius: 20px;
+backdrop-filter: blur(20px);
+
+}
+
+
+.info1{
+background-color: rgba(80, 16, 16, 0.4);
+padding: 10px;
+margin-bottom: 50px;
+
+border-radius: 20px;
+backdrop-filter: blur(20px);
+}
+
+h3{font-family:'Segoe UI';
+color: rgb(255, 250, 250);
+font-size: 20px;
+}
+
+h4{font-family: arial;
+color: rgb(15, 139, 223);
+font-size: 29px;
+}
+
+h5{font-family: arial;
+color: antiquewhite;
+font-size: 23px;
+}
+
+h6{font-family: arial;
+color: rgb(0, 0, 0);
+font-size: 26px;
+}
+
+a{ font-family: Arial;
+font-size: 25px;
+color: rgb(0, 17, 71);
+}
+
+p{
+color: rgb(0, 0, 0);
+font-size: 34px;
+font-style: unset;
+font-family: arial;
+text-transform: uppercase;
+
+}
+
+li{
+color: rgb(2, 2, 2);
+font-size: 23px;
+font-family: arial;
+                                                                             
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 100px;
+    background: #0b97f5bb;
+  }
+
+  .btn{
+    width: 200px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: 30px;
+    border: none;
+    border-radius: 100px;
+    color: #000000;
+    transition: all 0.6s;
+    box-shadow: inset 0 0 20px #1506e0;
+  }
+  
+  .btn:hover{
+    background: transparent;
+    color: #1b46d696;
+    transform: scale(1.5)rotate(deg);
+    box-shadow: 0 0 60px #092eff96;
+    cursor: grab;
+    border: 2px solid #10a7ff96;
+  }
+
+  .product {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.product img {
+    max-width: 100%;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.product img:hover {
+    transform: scale(1.05);
+}
+
+.product button {
+    background-color: #2e9fd3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 5px 20px rgb(241, 241, 241);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.product button:hover {
+    box-shadow: 0px 8px 100px rgb(37, 34, 185);
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+.details {
+    display: none;
+    padding: 20px;
+    background-color: rgba(0, 87, 129, 0.4);
+padding: 10px;
+margin-bottom: 50px;
+
+border-radius: 20px;
+backdrop-filter: blur(20px);
+    
+    border-radius: 5px  black;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.details.active {
+    display: block;}
+
+    
+
+    .botao{
+        display: flex;
+        height: 100px;
+        background: rgba(0, 87, 129, 0.4)
+      }
+      .btn{
+        width: 260px;
+        height: 50px;
+        font-weight: bolder;
+        font-size: 30px;
+        border: none;
+        border-radius: 100px;
+        color: #000000;
+        transition: all 0.6s;
+        box-shadow: inset 0 0 20px #02008d;
+      }
+      
+      .btn:hover{
+        background: transparent;
+        color: #2a1bfd;
+        transform: scale(1.5)rotate(deg);
+        box-shadow: 0 0 60px #0062e2;
+        cursor: grab;
+        border: 2px solid #01ffe196;
+      }
